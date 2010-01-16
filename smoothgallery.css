@@ -1,0 +1,7 @@
+  #smoothgallery {
+    border: 1px solid #000000;
+    display: none;
+    height: 440px;
+    width: 100%;
+    z-index:5;
+  } 
