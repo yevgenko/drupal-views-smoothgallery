@@ -33,7 +33,7 @@ function phptemplate_views_view_unformatted__smoothgallery($view, $options, $row
   drupal_add_js("
     function startGallery() {
       var myGallery = new gallery(Moo.$('smoothgallery'), {
-        timed: false
+        timed: true
       });
     }
     window.onDomReady(startGallery);", 
